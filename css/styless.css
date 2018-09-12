@@ -1,0 +1,111 @@
+html,
+body {
+background-size:cover;
+}
+/* Float */
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+}
+.vidurys {
+  position: relative;
+  top: 0px;
+  vertical-align: middle;
+  text-align: center;
+}
+.grotuvas {
+  position: absolute;
+  top: 885px;
+  left: 5px;
+}
+.textas {
+  position: relative;
+  top: 140px;
+  vertical-align: middle;
+  text-align: center;
+}
+.logo {
+  position: relative;
+  top: 0px;
+  vertical-align: middle;
+  text-align: center;
+}
+.navigacija {
+  position: relative;
+  top: 60px;
+  vertical-align: middle;
+  text-align: center;
+}
+.navigacija-siuntinai {
+  position: relative;
+  top: 20px;
+  vertical-align: middle;
+  text-align: center;
+}
+.siuntiniai {
+  position: relative;
+  top: 100px;
+  vertical-align: middle;
+  text-align: center;
+}
+.kontaktai {
+  position: relative;
+  top: 100px;
+  vertical-align: middle;
+  text-align: center;
+}
+/*hoveris*/
+.hover:hover {
+  opacity: 0.9;
+  height: 434px;
+  width: 298px;
+}
+/*antras hoveris*/
+.hover1 {
+    opacity: 0.8;
+    filter: alpha(opacity=40);
+}
+
+.hover1:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+/*BLUR*/
+.blur {
+  -webkit-filter: blur(1.2px);
+}
+ 
+.blur:hover {
+  -webkit-filter: blur(0px);
+}
+.blur1 {
+  -webkit-filter: blur(0px);
+}
+.copyright {
+  position: relative;
+  top: 193px;
+  height: 30px;
+  width: 0 auto;
+  background-color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+.text {
+  font-family: Tahoma;
+  color: #000;
+  font-size: 9pt;
+  padding-top: 7px;
+}
